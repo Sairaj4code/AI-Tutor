@@ -1,0 +1,301 @@
+student_id,subject,hours_studied_per_day,days_before_exam,revision_count,topic_difficulty,mock_test_score,attendance_percentage,predicted_performance
+1,Biology,5.7,34,2,Hard,39,85,Poor
+2,Computer Science,2.3,28,0,Easy,94,87,Average
+3,Chemistry,3.5,31,3,Easy,51,61,Average
+4,Computer Science,3.6,8,1,Easy,79,65,Average
+5,Computer Science,5.9,39,1,Medium,43,68,Poor
+6,Physics,0.9,26,4,Easy,93,92,Average
+7,Chemistry,2.2,34,2,Hard,76,84,Average
+8,Chemistry,1.6,3,1,Easy,58,72,Average
+9,Chemistry,2.0,12,0,Hard,65,68,Average
+10,Computer Science,3.2,1,4,Medium,81,72,Average
+11,Biology,2.5,44,3,Hard,36,90,Poor
+12,Chemistry,2.7,5,4,Hard,58,70,Average
+13,Computer Science,5.1,30,3,Easy,40,63,Poor
+14,Physics,5.6,30,4,Easy,62,93,Average
+15,Biology,0.9,17,4,Hard,35,97,Poor
+16,Physics,1.6,23,4,Easy,61,63,Average
+17,Biology,4.2,15,3,Medium,80,97,Good
+18,Computer Science,2.5,37,3,Medium,87,78,Average
+19,Math,1.9,21,4,Easy,55,65,Average
+20,Biology,2.1,14,1,Medium,75,93,Average
+21,Physics,2.3,2,2,Easy,58,77,Average
+22,Computer Science,5.2,11,2,Hard,33,72,Poor
+23,Biology,1.3,39,2,Hard,42,82,Poor
+24,Math,4.4,38,3,Medium,68,78,Average
+25,Math,3.5,34,3,Easy,44,70,Poor
+26,Chemistry,2.1,38,1,Easy,58,60,Average
+27,Chemistry,2.8,34,2,Medium,58,83,Average
+28,Physics,1.9,18,2,Hard,61,66,Average
+29,Biology,3.9,30,4,Medium,31,84,Poor
+30,Biology,0.9,15,3,Hard,76,80,Average
+31,Chemistry,0.5,27,2,Easy,51,74,Average
+32,Biology,4.0,34,1,Hard,56,60,Average
+33,Biology,1.6,38,1,Medium,96,71,Average
+34,Math,0.9,33,2,Easy,85,66,Average
+35,Chemistry,2.7,24,3,Medium,50,74,Average
+36,Computer Science,0.8,15,1,Medium,76,80,Average
+37,Chemistry,5.4,30,4,Hard,88,78,Good
+38,Computer Science,0.7,42,1,Medium,35,88,Poor
+39,Math,3.7,17,0,Hard,48,84,Poor
+40,Physics,2.9,5,0,Easy,86,92,Average
+41,Biology,4.2,29,3,Hard,98,91,Good
+42,Math,2.3,4,2,Easy,32,94,Poor
+43,Biology,1.4,10,3,Hard,30,97,Poor
+44,Physics,5.9,17,3,Medium,87,85,Good
+45,Physics,5.1,10,3,Hard,67,70,Average
+46,Math,5.2,17,3,Hard,44,94,Poor
+47,Physics,1.9,20,4,Easy,63,67,Average
+48,Computer Science,0.7,24,4,Medium,90,73,Average
+49,Physics,2.2,5,1,Hard,64,69,Average
+50,Biology,3.5,34,0,Medium,93,61,Average
+51,Biology,2.3,6,3,Hard,54,68,Average
+52,Biology,5.1,2,1,Hard,53,62,Average
+53,Biology,2.0,13,0,Medium,41,80,Poor
+54,Computer Science,5.8,43,2,Hard,47,85,Poor
+55,Chemistry,3.0,43,4,Medium,44,67,Poor
+56,Math,5.1,11,0,Hard,56,61,Average
+57,Biology,1.6,23,2,Easy,89,65,Average
+58,Physics,2.8,16,0,Medium,75,87,Average
+59,Biology,4.3,31,4,Hard,46,88,Poor
+60,Physics,1.3,11,4,Hard,82,85,Average
+61,Physics,1.2,16,1,Easy,37,84,Poor
+62,Biology,5.8,8,3,Medium,56,71,Average
+63,Computer Science,4.4,4,0,Hard,75,64,Good
+64,Physics,0.7,40,0,Easy,79,93,Average
+65,Physics,2.7,4,2,Hard,32,96,Poor
+66,Biology,2.9,25,4,Medium,93,74,Average
+67,Physics,4.6,3,0,Hard,73,95,Average
+68,Physics,1.9,32,4,Hard,82,74,Average
+69,Biology,1.5,3,0,Hard,53,82,Average
+70,Biology,0.9,27,1,Hard,89,65,Average
+71,Math,2.9,29,3,Easy,32,80,Poor
+72,Computer Science,4.3,32,0,Easy,49,82,Poor
+73,Computer Science,0.8,19,4,Medium,75,75,Average
+74,Physics,5.5,21,1,Easy,44,74,Poor
+75,Computer Science,2.9,5,0,Easy,54,84,Average
+76,Physics,1.8,18,2,Medium,46,95,Poor
+77,Math,1.0,28,3,Easy,38,70,Poor
+78,Biology,1.5,42,0,Easy,67,74,Average
+79,Biology,5.6,22,1,Medium,77,63,Good
+80,Biology,4.0,21,2,Medium,89,80,Good
+81,Computer Science,3.3,6,1,Medium,92,72,Average
+82,Math,4.1,1,1,Hard,31,81,Poor
+83,Computer Science,2.9,5,2,Hard,40,78,Poor
+84,Computer Science,4.5,41,1,Medium,93,93,Good
+85,Math,0.8,12,2,Medium,50,73,Average
+86,Math,3.6,26,0,Medium,47,63,Poor
+87,Math,1.4,34,2,Hard,93,86,Average
+88,Math,1.2,14,2,Hard,67,88,Average
+89,Biology,2.4,26,3,Easy,61,87,Average
+90,Chemistry,1.0,27,2,Easy,40,94,Poor
+91,Chemistry,1.0,9,2,Medium,74,67,Average
+92,Math,2.2,26,0,Hard,62,75,Average
+93,Chemistry,5.9,22,3,Hard,70,95,Average
+94,Chemistry,1.5,30,4,Hard,37,89,Poor
+95,Math,0.6,43,0,Medium,40,77,Poor
+96,Chemistry,4.7,17,0,Easy,80,61,Good
+97,Computer Science,4.9,26,4,Medium,70,72,Average
+98,Physics,2.4,36,2,Easy,46,63,Poor
+99,Physics,3.1,1,1,Easy,75,85,Average
+100,Math,4.1,8,3,Medium,61,84,Average
+101,Biology,0.8,35,1,Easy,83,89,Average
+102,Math,5.7,15,4,Easy,49,70,Poor
+103,Biology,5.4,22,0,Hard,62,66,Average
+104,Physics,1.9,14,0,Easy,69,90,Average
+105,Math,0.6,26,3,Medium,61,69,Average
+106,Computer Science,5.6,28,0,Medium,31,98,Poor
+107,Chemistry,3.3,23,0,Easy,62,72,Average
+108,Biology,3.5,14,3,Hard,59,90,Average
+109,Chemistry,4.3,24,3,Hard,62,66,Average
+110,Chemistry,3.9,2,4,Easy,55,95,Average
+111,Math,5.7,26,0,Easy,51,79,Average
+112,Chemistry,5.7,14,0,Medium,95,63,Good
+113,Computer Science,5.3,7,4,Easy,67,66,Average
+114,Chemistry,4.0,3,2,Hard,75,60,Good
+115,Math,4.9,23,2,Easy,44,72,Poor
+116,Computer Science,4.2,43,2,Medium,73,81,Average
+117,Physics,3.7,18,4,Medium,78,80,Average
+118,Chemistry,1.2,38,0,Medium,90,81,Average
+119,Math,5.0,35,4,Medium,96,87,Good
+120,Physics,5.0,15,4,Medium,35,68,Poor
+121,Physics,3.9,25,2,Easy,38,85,Poor
+122,Biology,5.0,37,1,Easy,35,68,Poor
+123,Computer Science,4.1,28,0,Easy,61,74,Average
+124,Chemistry,1.6,10,2,Easy,70,69,Average
+125,Math,2.0,39,1,Medium,37,83,Poor
+126,Biology,1.7,17,1,Hard,79,67,Average
+127,Computer Science,2.6,39,3,Easy,91,83,Average
+128,Biology,0.7,22,0,Hard,91,75,Average
+129,Computer Science,3.9,26,1,Easy,36,85,Poor
+130,Computer Science,2.4,44,2,Easy,33,86,Poor
+131,Chemistry,4.1,25,3,Hard,35,96,Poor
+132,Computer Science,2.6,17,0,Medium,87,63,Average
+133,Biology,4.2,13,4,Easy,51,83,Average
+134,Computer Science,2.4,20,2,Easy,55,78,Average
+135,Chemistry,1.9,25,1,Easy,32,95,Poor
+136,Chemistry,3.2,4,1,Hard,70,98,Average
+137,Biology,4.3,10,2,Medium,89,69,Good
+138,Physics,2.4,3,1,Hard,43,84,Poor
+139,Physics,5.7,41,3,Hard,41,77,Poor
+140,Computer Science,0.7,18,0,Medium,41,78,Poor
+141,Math,2.8,36,3,Hard,42,95,Poor
+142,Computer Science,5.8,22,1,Medium,54,69,Average
+143,Biology,3.5,34,4,Easy,74,92,Average
+144,Biology,2.8,8,0,Medium,48,64,Poor
+145,Biology,3.6,40,0,Easy,84,94,Average
+146,Biology,3.7,44,2,Hard,74,93,Average
+147,Biology,4.5,19,2,Hard,37,92,Poor
+148,Chemistry,1.2,42,4,Easy,82,80,Average
+149,Physics,1.9,41,0,Hard,84,76,Average
+150,Biology,3.7,37,4,Medium,61,81,Average
+151,Math,5.3,6,2,Easy,80,96,Good
+152,Math,3.6,26,2,Hard,73,74,Average
+153,Math,1.8,34,0,Easy,99,94,Average
+154,Math,4.2,6,3,Medium,47,87,Poor
+155,Chemistry,4.6,37,1,Medium,51,66,Average
+156,Math,1.8,33,2,Hard,66,91,Average
+157,Biology,2.6,22,2,Medium,85,70,Average
+158,Computer Science,3.4,21,3,Easy,88,69,Average
+159,Math,3.2,6,3,Medium,32,68,Poor
+160,Chemistry,2.6,6,4,Easy,57,73,Average
+161,Chemistry,2.1,4,4,Easy,64,72,Average
+162,Math,1.0,30,1,Medium,90,84,Average
+163,Computer Science,0.8,11,1,Hard,83,61,Average
+164,Math,5.8,30,0,Medium,92,94,Good
+165,Chemistry,5.2,31,4,Easy,36,66,Poor
+166,Physics,2.5,24,2,Easy,78,80,Average
+167,Biology,5.8,9,4,Medium,60,77,Average
+168,Chemistry,4.2,3,2,Hard,87,62,Good
+169,Math,3.2,31,3,Hard,90,98,Average
+170,Biology,3.2,40,4,Easy,53,70,Average
+171,Math,1.0,37,3,Easy,49,98,Poor
+172,Math,1.0,36,1,Hard,66,83,Average
+173,Physics,3.8,24,1,Medium,33,78,Poor
+174,Biology,3.5,31,0,Easy,49,63,Poor
+175,Biology,1.7,6,4,Easy,89,85,Average
+176,Physics,5.7,2,3,Hard,53,97,Average
+177,Chemistry,4.8,20,2,Medium,79,91,Good
+178,Math,1.1,28,1,Hard,78,98,Average
+179,Computer Science,5.6,11,1,Medium,80,95,Good
+180,Math,5.9,4,2,Medium,65,99,Average
+181,Math,6.0,15,3,Medium,95,96,Good
+182,Chemistry,0.8,6,3,Easy,63,92,Average
+183,Math,4.6,30,4,Hard,65,95,Average
+184,Physics,3.5,38,4,Hard,35,62,Poor
+185,Physics,4.4,2,0,Medium,68,68,Average
+186,Biology,5.8,15,1,Easy,71,67,Average
+187,Computer Science,4.3,11,4,Easy,87,92,Good
+188,Math,5.1,8,3,Hard,41,65,Poor
+189,Math,5.3,26,2,Easy,32,98,Poor
+190,Chemistry,5.1,44,3,Easy,47,63,Poor
+191,Physics,2.8,5,1,Medium,69,72,Average
+192,Computer Science,1.7,6,3,Easy,50,61,Average
+193,Biology,2.7,26,0,Medium,44,64,Poor
+194,Physics,5.4,4,1,Hard,55,86,Average
+195,Biology,1.3,19,2,Easy,37,91,Poor
+196,Chemistry,3.3,20,0,Hard,71,80,Average
+197,Chemistry,1.8,33,1,Hard,73,67,Average
+198,Math,3.7,20,2,Easy,43,97,Poor
+199,Computer Science,5.2,12,0,Easy,31,67,Poor
+200,Biology,5.3,1,0,Hard,66,62,Average
+201,Physics,1.8,26,1,Easy,98,62,Average
+202,Chemistry,5.5,14,4,Medium,67,81,Average
+203,Math,3.8,38,0,Medium,70,65,Average
+204,Math,2.4,37,0,Easy,91,61,Average
+205,Biology,4.4,11,2,Hard,89,82,Good
+206,Chemistry,3.1,36,3,Easy,43,61,Poor
+207,Computer Science,2.6,13,1,Easy,31,97,Poor
+208,Chemistry,4.4,43,1,Hard,99,76,Good
+209,Biology,1.9,3,4,Hard,46,94,Poor
+210,Biology,2.3,33,4,Medium,57,93,Average
+211,Chemistry,2.9,6,1,Hard,95,82,Average
+212,Biology,1.9,10,4,Medium,64,89,Average
+213,Chemistry,2.7,5,2,Hard,34,67,Poor
+214,Physics,3.6,23,1,Easy,94,81,Average
+215,Chemistry,4.6,10,4,Medium,69,95,Average
+216,Chemistry,4.7,44,1,Medium,85,64,Good
+217,Biology,5.0,2,3,Medium,65,72,Average
+218,Biology,4.6,13,0,Easy,74,88,Average
+219,Math,4.2,40,1,Easy,52,90,Average
+220,Math,1.8,2,0,Easy,76,75,Average
+221,Physics,2.7,20,4,Easy,60,89,Average
+222,Math,3.1,1,0,Easy,40,75,Poor
+223,Chemistry,1.0,37,1,Medium,39,71,Poor
+224,Biology,3.4,9,3,Easy,96,76,Average
+225,Math,2.9,17,4,Medium,43,75,Poor
+226,Math,4.9,9,1,Easy,39,71,Poor
+227,Physics,5.9,11,4,Hard,30,67,Poor
+228,Physics,3.6,15,2,Medium,34,79,Poor
+229,Chemistry,2.3,24,0,Hard,49,62,Poor
+230,Biology,0.7,38,2,Medium,37,75,Poor
+231,Physics,5.6,35,1,Hard,72,89,Average
+232,Math,5.6,30,3,Easy,30,82,Poor
+233,Biology,1.9,31,4,Easy,86,87,Average
+234,Biology,4.3,5,0,Easy,93,99,Good
+235,Math,0.9,44,4,Medium,57,64,Average
+236,Physics,1.4,14,1,Hard,66,79,Average
+237,Math,1.7,11,4,Easy,76,99,Average
+238,Biology,2.1,9,0,Hard,66,60,Average
+239,Computer Science,6.0,34,1,Hard,78,89,Good
+240,Computer Science,4.3,12,4,Easy,73,80,Average
+241,Chemistry,2.6,35,3,Easy,85,79,Average
+242,Math,4.6,35,1,Hard,57,65,Average
+243,Math,5.5,1,1,Easy,35,81,Poor
+244,Chemistry,5.8,40,3,Easy,90,77,Good
+245,Chemistry,0.8,22,2,Easy,49,67,Poor
+246,Chemistry,2.7,29,0,Medium,31,98,Poor
+247,Biology,1.1,8,2,Hard,66,91,Average
+248,Math,2.3,11,4,Hard,49,92,Poor
+249,Biology,1.4,41,3,Medium,55,75,Average
+250,Chemistry,4.1,37,2,Hard,58,71,Average
+251,Math,2.6,14,1,Easy,30,97,Poor
+252,Biology,1.8,30,4,Hard,64,93,Average
+253,Biology,2.0,35,4,Easy,99,73,Average
+254,Chemistry,2.5,21,2,Medium,88,95,Average
+255,Math,1.9,37,2,Easy,98,92,Average
+256,Chemistry,3.0,5,3,Hard,62,82,Average
+257,Math,0.7,19,0,Hard,80,61,Average
+258,Computer Science,2.0,14,2,Hard,41,80,Poor
+259,Physics,2.8,26,2,Medium,49,61,Poor
+260,Physics,3.8,4,1,Medium,82,86,Average
+261,Physics,2.0,25,4,Hard,72,68,Average
+262,Chemistry,1.2,42,0,Easy,79,60,Average
+263,Computer Science,0.9,25,1,Medium,58,70,Average
+264,Math,5.7,18,3,Hard,86,62,Good
+265,Biology,2.8,40,3,Hard,68,82,Average
+266,Math,3.7,8,2,Medium,85,85,Average
+267,Biology,5.6,39,2,Medium,72,63,Average
+268,Math,1.0,40,3,Medium,79,77,Average
+269,Computer Science,5.3,14,2,Easy,52,65,Average
+270,Biology,3.5,32,0,Easy,73,94,Average
+271,Chemistry,1.4,38,2,Hard,67,81,Average
+272,Math,2.8,33,4,Medium,52,74,Average
+273,Math,4.8,23,2,Easy,74,81,Average
+274,Biology,3.1,15,1,Medium,81,96,Average
+275,Chemistry,5.9,33,0,Hard,79,71,Good
+276,Chemistry,2.6,25,1,Easy,37,97,Poor
+277,Computer Science,4.6,17,1,Easy,30,77,Poor
+278,Chemistry,2.7,33,4,Easy,37,94,Poor
+279,Chemistry,5.1,2,0,Hard,58,89,Average
+280,Chemistry,3.6,14,0,Medium,34,83,Poor
+281,Physics,0.8,40,0,Easy,76,89,Average
+282,Computer Science,0.7,40,0,Hard,63,73,Average
+283,Math,1.2,39,0,Medium,94,65,Average
+284,Biology,0.6,6,4,Hard,84,62,Average
+285,Math,0.9,6,2,Medium,72,75,Average
+286,Computer Science,4.3,3,1,Hard,59,66,Average
+287,Biology,3.4,7,0,Medium,46,73,Poor
+288,Computer Science,4.6,8,2,Easy,55,68,Average
+289,Chemistry,5.5,42,2,Medium,37,74,Poor
+290,Biology,3.7,15,1,Hard,76,80,Average
+291,Chemistry,4.5,29,4,Hard,75,94,Good
+292,Math,4.7,33,3,Medium,97,61,Good
+293,Math,2.6,30,3,Easy,62,86,Average
+294,Biology,1.8,39,2,Easy,30,61,Poor
+295,Biology,1.6,27,1,Medium,48,94,Poor
+296,Computer Science,1.9,36,3,Medium,60,77,Average
+297,Computer Science,2.0,29,2,Hard,43,73,Poor
+298,Chemistry,1.6,38,4,Easy,82,79,Average
+299,Biology,5.3,33,3,Medium,77,77,Good
+300,Math,4.7,37,2,Easy,98,69,Good
