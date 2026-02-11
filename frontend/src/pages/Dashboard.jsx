@@ -1,39 +1,78 @@
 import { useNavigate } from 'react-router-dom'
 import './pages.css'
-import Card from '../components/Card'
 
 export default function Dashboard() {
   const navigate = useNavigate()
 
   return (
-    <div className="dashboard">
-      <h2>Welcome back, Student 👋</h2>
+    <div className="dashboard-page">
+      <div className="dashboard-container">
+        {/* Welcome Section */}
+        <header className="dashboard-header">
+          <div className="header-content">
+            <h1>Welcome back, Alex!</h1>
+            <p className="muted">You're on a 3-day streak 🔥 Keep it up!</p>
+          </div>
+          <button className="btn primary">Start Learning</button>
+        </header>
 
-      <section className="summary">
-        <Card title={<><span className="icon">📉</span> Weak Topics</>}>
-          Algebra, Physics
-        </Card>
-        <Card title={<><span className="icon">📊</span> Accuracy</>}>
-          72%
-        </Card>
-        <Card title={<><span className="icon">⏰</span> Next Study Session</>}>
-          Today, 6:00 PM
-        </Card>
-      </section>
+        {/* Stats Grid */}
+        <section className="stats-grid">
+          <div className="stat-card">
+            <div className="stat-icon red">📉</div>
+            <div className="stat-info">
+              <h3>Weak Topics</h3>
+              <p>Algebra, Physics</p>
+            </div>
+          </div>
+          <div className="stat-card">
+            <div className="stat-icon blue">📊</div>
+            <div className="stat-info">
+              <h3>Accuracy</h3>
+              <p>72%</p>
+            </div>
+          </div>
+          <div className="stat-card">
+            <div className="stat-icon green">⏰</div>
+            <div className="stat-info">
+              <h3>Next Session</h3>
+              <p>Today, 6:00 PM</p>
+            </div>
+          </div>
+        </section>
 
-      <div className="dashboard-actions">
-        <button className="btn primary" onClick={() => navigate('/chat')}>Ask AI</button>
-        <button className="btn secondary" onClick={() => window.scrollTo({ top: 9999, behavior: 'smooth' })}>View Study Plan</button>
+        {/* Today's Focus */}
+        <section className="focus-section">
+          <div className="section-header">
+            <h2>Today's Focus</h2>
+            <button className="btn secondary small">View Full Plan</button>
+          </div>
+          
+          <div className="focus-list">
+            <div className="focus-item completed">
+              <div className="check-circle">✓</div>
+              <div className="focus-details">
+                <h4>Revise Algebra</h4>
+                <span className="muted">45 mins • Completed</span>
+              </div>
+            </div>
+            <div className="focus-item">
+              <div className="check-circle empty"></div>
+              <div className="focus-details">
+                <h4>Physics Numericals</h4>
+                <span className="muted">30 mins • Pending</span>
+              </div>
+            </div>
+            <div className="focus-item">
+              <div className="check-circle empty"></div>
+              <div className="focus-details">
+                <h4>Quick Revision</h4>
+                <span className="muted">15 mins • Scheduled</span>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-
-      <section className="study-plan">
-        <h3>Today's Study Plan</h3>
-        <div className="plan-card">
-          <div className="plan-row"><div className="plan-checkbox">✓</div><div className="plan-text">Revise Algebra – 45 mins</div></div>
-          <div className="plan-row"><div className="plan-checkbox">⧗</div><div className="plan-text">Practice Physics numericals – 30 mins</div></div>
-          <div className="plan-row"><div className="plan-checkbox">⚡</div><div className="plan-text">Quick revision – 15 mins</div></div>
-        </div>
-      </section>
     </div>
   )
 }
